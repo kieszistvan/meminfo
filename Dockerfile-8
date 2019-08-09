@@ -1,5 +1,4 @@
-ARG VERSION=11
-FROM openjdk:${VERSION}
+FROM openjdk:8
 COPY ./MemoryMain.java /src/MemoryMain.java
 WORKDIR /src
 RUN java -version
